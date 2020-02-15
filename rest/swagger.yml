@@ -379,4 +379,3 @@ paths:
       responses:
         200:
           description: Successfully deleted a note
-
