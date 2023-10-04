@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: calc
+Version: 0.1.0
+Summary: A CLI application that performs basic arithmetic operations.
+Author-email: Big Nunya <bignunya@dungus.com>
+Description-Content-Type: text/markdown
+Requires-Dist: click>=8.1.7

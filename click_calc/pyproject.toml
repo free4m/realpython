@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=65.5.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "click_calc"
+version = "0.1.0"
+description = "A CLI application that performs basic arithmetic operations."
+readme = "README.md"
+authors = [{ name = "Big Nunya", email = "bignunya@dungus.com" }]
+dependencies = [
+    "click >= 8.1.7",
+]
+
+[project.scripts]
+calc = "click_calc.__main__:cli"
